@@ -12,7 +12,7 @@ bundle install
 bundle exec rails g spree_instock_alert:install
 
 ```ruby
-gem 'spree_instock_alert'
+gem 'spree_instock_alert' , github: 'arkhitech/spree_instock_alert'
 ```
 
 Bundle your dependencies and run the installation generator:
